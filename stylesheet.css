@@ -1,0 +1,169 @@
+<style>
+    .navbar {
+        background-color: #221f28;
+        position: fixed;
+        width: 100%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #221f28;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #18171b;
+        border-radius: 24px;
+    }
+    
+    .active {
+        background-color: rgb(30, 133, 33);
+        color: white;
+        border-radius: 24px;
+    }
+    div.hmbut {
+        opacity: 0.5;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        background-color: rgb(231, 231, 231);
+        color: rgb(30, 133, 33);
+        width: 50px; height: 35px;
+        text-decoration: none;
+        padding: 1px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow:1px 1px 2px rgba(0, 0, 0,0.5);
+    }
+    .container {
+        max-width: 300%;
+        position: relative;
+        z-index: "-3";
+        overflow: none;
+    }
+     .center {
+        position: absolute;
+        left: 13%;
+        top: 10%;
+        width: 20%;
+    }    
+    img { 
+        width: 100%;
+        height: auto;
+        z-index: -3;
+    }
+    .welcome {
+        color: whitesmoke;
+        position: absolute;
+        top: 93%;
+        left: -28%;
+    }
+    .officio {
+        color: whitesmoke;
+        position: absolute;
+        top: 135%;
+        left: 10%
+    }
+    .finnews {
+        overflow: hidden;
+    }
+    .news {
+        background-repeat: no-repeat;
+        box-shadow:1px 2px 4px rgba(0, 0, 0,0.5);
+        width: 60%;
+        float:left;
+        position: relative;
+    }
+    .newshead1 {
+        text-align: center;
+        padding: 10px;
+        font-size: auto;
+        position: absolute;
+    }
+    .ncontent {
+        padding: 80px 10px 60px 30px;
+        column-count: 2;
+        column-gap: 40px;
+        column-rule-width: 1px;
+        column-rule-style: solid;
+        column-rule-color: gray;
+        font-size: auto;
+    }
+    .newshead2 {
+            text-align: center;
+            padding: 10px;
+            font-size: auto;
+            position: absolute;
+    }
+    .ncontent2 {
+            padding: 80px 10px 0px 30px;
+            column-count: 2;
+            column-gap: 40px;
+            column-rule-width: 1px;
+            column-rule-style: solid;
+            column-rule-color: gray;
+            font-size: auto;
+    }
+    .totad {
+        max-height: 100%;
+        overflow: none;
+    }
+    .ad {
+        float: right;
+        width: 38%;
+        background-color: whitesmoke;
+    }
+    .ad2 {
+        float: right;
+        width: 38%;
+        background-color: whitesmoke;
+    }
+    .ad3 {
+        float: right;
+        width: 38%;
+        background-color: whitesmoke;
+    }
+    .contact {
+        background-color: rgb(30, 133, 33); ;
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        width: 50%;
+        background-color: rgb(5, 73, 8);
+        color: white;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+        
+    }
+    input[type=submit]:hover {
+        background-color: #06750c;
+        
+    }
+    
+    div.ans {
+        padding: 20px;
+        width: 75%;
+        position: relative;
+    }
+</style>
